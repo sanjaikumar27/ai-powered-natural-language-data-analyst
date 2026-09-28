@@ -1,0 +1,25 @@
+order_date,product,category,region,units,sales,profit,customer_type
+2025-01-05,Atlas Laptop,Electronics,North,4,4800,720,New
+2025-01-12,Atlas Laptop,Electronics,South,3,3600,510,Returning
+2025-01-18,Comet Phone,Electronics,West,8,6400,960,New
+2025-01-24,Trail Backpack,Outdoor,East,12,960,240,Returning
+2025-02-03,Trail Backpack,Outdoor,North,9,720,180,New
+2025-02-09,Comet Phone,Electronics,South,6,4800,720,Returning
+2025-02-16,Harbor Tent,Outdoor,West,5,1750,350,New
+2025-02-25,Atlas Laptop,Electronics,East,2,2400,320,Returning
+2025-03-04,Harbor Tent,Outdoor,South,7,2450,490,New
+2025-03-10,Comet Phone,Electronics,North,10,8000,1200,Returning
+2025-03-19,Trail Backpack,Outdoor,West,6,480,120,New
+2025-03-28,Atlas Laptop,Electronics,North,5,6000,900,Returning
+2025-04-02,Comet Phone,Electronics,East,7,5600,840,New
+2025-04-11,Harbor Tent,Outdoor,North,4,1400,280,Returning
+2025-04-17,Trail Backpack,Outdoor,South,11,880,220,New
+2025-04-26,Atlas Laptop,Electronics,West,3,3600,540,New
+2025-05-06,Comet Phone,Electronics,South,9,7200,1080,Returning
+2025-05-15,Harbor Tent,Outdoor,East,6,2100,420,New
+2025-05-22,Trail Backpack,Outdoor,North,8,640,160,Returning
+2025-05-30,Atlas Laptop,Electronics,South,4,4800,680,New
+2025-06-07,Harbor Tent,Outdoor,West,8,2800,560,Returning
+2025-06-14,Comet Phone,Electronics,West,5,4000,600,New
+2025-06-21,Trail Backpack,Outdoor,East,10,800,200,Returning
+2025-06-29,Atlas Laptop,Electronics,East,6,7200,1080,Returning

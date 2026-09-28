@@ -1,0 +1,9 @@
+streamlit>=1.37,<2
+pandas>=2.2,<4
+numpy>=1.26,<3
+plotly>=5.22,<7
+openpyxl>=3.1,<4
+xlrd>=2.0,<3
+scikit-learn>=1.5,<2
+python-dotenv>=1.0,<2
+pytest>=8,<10
