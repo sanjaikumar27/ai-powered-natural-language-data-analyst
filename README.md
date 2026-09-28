@@ -165,7 +165,7 @@ The tests cover CSV and Excel reading, invalid uploads, data cleaning, query cal
 
 ## Deploy to Streamlit Community Cloud
 
-1. Create a GitHub repository and push the source using the commands below.
+1. The project repository is available at [github.com/sanjaikumar27/ai-powered-natural-language-data-analyst](https://github.com/sanjaikumar27/ai-powered-natural-language-data-analyst).
 2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) with GitHub and create a new app.
 3. Select the repository, branch, and `app.py` as the main file.
 4. Deploy. The included `requirements.txt` installs dependencies.
@@ -173,20 +173,24 @@ The tests cover CSV and Excel reading, invalid uploads, data cleaning, query cal
 
 Community Cloud is a hosted environment: files uploaded there are processed on that host, not on your laptop. Do not upload private, regulated, or confidential datasets unless you have verified that hosting arrangement is appropriate. For a purely private demo, run locally instead.
 
-## GitHub upload commands
+## Clone from GitHub and publish future changes
 
-Create an empty GitHub repository named `ai-powered-natural-language-data-analyst` first, then run in the project directory (replace `YOUR-USERNAME`):
+Clone the project to your computer:
 
 ```bash
-git init
-git add .
-git commit -m "Build AI-powered natural language data analyst"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/ai-powered-natural-language-data-analyst.git
-git push -u origin main
+git clone https://github.com/sanjaikumar27/ai-powered-natural-language-data-analyst.git
+cd ai-powered-natural-language-data-analyst
 ```
 
-Before pushing, check `git status` and confirm `.env`, uploaded user data, and private files are not staged.
+After making changes, review staged files before pushing; ensure `.env`, uploaded user data, and private files are not staged:
+
+```bash
+git status
+git add .
+git diff --cached --stat
+git commit -m "Describe your change"
+git push origin main
+```
 
 ## Viva / placement explanation
 
